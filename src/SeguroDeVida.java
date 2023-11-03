@@ -13,6 +13,6 @@ public class SeguroDeVida implements Tributavel{
     @Override
     public double calculaTributos() {
         saldo_seguro -= taxa;
-        return saldo_seguro;
+        return taxa;
     }
 }

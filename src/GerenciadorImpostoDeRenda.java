@@ -3,8 +3,8 @@ public class GerenciadorImpostoDeRenda {
     private double total_IR = 0;
 
     //METODOS
-    protected void calculaImpostoRenda(double valor){
-        total_IR += valor;
+    protected void calculaImpostoRenda(Tributavel tributavel){
+        total_IR += tributavel.calculaTributos();
     }
 
     public double getTotal_IR(){
