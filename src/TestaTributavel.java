@@ -18,6 +18,6 @@ public class TestaTributavel {
         gerenciador.calculaImpostoRenda(conta_corrente);
         gerenciador.calculaImpostoRenda(seguro_vida);
 
-        System.out.printf("O saldo total dos tributaveis: %.2f\n\n", gerenciador.getTotal_IR());
+        System.out.printf("Valor total cobrado pelo Imposto de Renda: %.2f\n\n", gerenciador.getTotal_IR());
     }
 }
